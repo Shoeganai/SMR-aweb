@@ -1,0 +1,306 @@
+<!doctype html>
+  <html lang="es">
+    <head>
+      <meta charset="utf-8"/>
+      <title>Empezamos con el CSS</title>
+        <style>
+            h1 {
+              color: red;
+            }    
+            p {
+              color: rgb(0, 0, 0);
+            }
+          .morado {
+              color: rgb(179, 162, 255);
+          }
+          .lista {
+              font-family: fantasy;
+          }
+          .jello-horizontal {
+      -webkit-animation: jello-horizontal 0.9s both;
+              animation: jello-horizontal 0.9s both;
+          }
+          .flicker-in-1 {
+            -webkit-animation: flicker-in-1 2s linear both;
+                    animation: flicker-in-1 2s linear both;
+          }
+      @-webkit-keyframes jello-horizontal {
+      0% {
+        -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1);
+      }
+      30% {
+        -webkit-transform: scale3d(1.25, 0.75, 1);
+                transform: scale3d(1.25, 0.75, 1);
+      }
+      40% {
+        -webkit-transform: scale3d(0.75, 1.25, 1);
+                transform: scale3d(0.75, 1.25, 1);
+      }
+      50% {
+        -webkit-transform: scale3d(1.15, 0.85, 1);
+                transform: scale3d(1.15, 0.85, 1);
+      }
+      65% {
+        -webkit-transform: scale3d(0.95, 1.05, 1);
+                transform: scale3d(0.95, 1.05, 1);
+      }
+      75% {
+        -webkit-transform: scale3d(1.05, 0.95, 1);
+                transform: scale3d(1.05, 0.95, 1);
+      }
+      100% {
+        -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1);
+      }
+    }
+    @keyframes jello-horizontal {
+      0% {
+        -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1);
+      }
+      30% {
+        -webkit-transform: scale3d(1.25, 0.75, 1);
+                transform: scale3d(1.25, 0.75, 1);
+      }
+      40% {
+        -webkit-transform: scale3d(0.75, 1.25, 1);
+                transform: scale3d(0.75, 1.25, 1);
+      }
+      50% {
+        -webkit-transform: scale3d(1.15, 0.85, 1);
+                transform: scale3d(1.15, 0.85, 1);
+      }
+      65% {
+        -webkit-transform: scale3d(0.95, 1.05, 1);
+                transform: scale3d(0.95, 1.05, 1);
+      }
+      75% {
+        -webkit-transform: scale3d(1.05, 0.95, 1);
+                transform: scale3d(1.05, 0.95, 1);
+      }
+      100% {
+        -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1);
+        }
+      }
+      @-webkit-keyframes flicker-in-1 {
+        0% {
+          opacity: 0;
+        }
+        10% {
+          opacity: 0;
+        }
+        10.1% {
+          opacity: 1;
+        }
+        10.2% {
+          opacity: 0;
+        }
+        20% {
+          opacity: 0;
+        }
+        20.1% {
+          opacity: 1;
+        }
+        20.6% {
+          opacity: 0;
+        }
+        30% {
+          opacity: 0;
+        }
+        30.1% {
+          opacity: 1;
+        }
+        30.5% {
+          opacity: 1;
+        }
+        30.6% {
+          opacity: 0;
+        }
+        45% {
+          opacity: 0;
+        }
+        45.1% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 1;
+        }
+        55% {
+          opacity: 1;
+        }
+        55.1% {
+          opacity: 0;
+        }
+        57% {
+          opacity: 0;
+        }
+        57.1% {
+          opacity: 1;
+        }
+        60% {
+          opacity: 1;
+        }
+        60.1% {
+          opacity: 0;
+        }
+        65% {
+          opacity: 0;
+        }
+        65.1% {
+          opacity: 1;
+        }
+        75% {
+          opacity: 1;
+        }
+        75.1% {
+          opacity: 0;
+        }
+        77% {
+          opacity: 0;
+        }
+        77.1% {
+          opacity: 1;
+        }
+        85% {
+          opacity: 1;
+        }
+        85.1% {
+          opacity: 0;
+        }
+        86% {
+          opacity: 0;
+        }
+        86.1% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      @keyframes flicker-in-1 {
+        0% {
+          opacity: 0;
+        }
+        10% {
+          opacity: 0;
+        }
+        10.1% {
+          opacity: 1;
+        }
+        10.2% {
+          opacity: 0;
+        }
+        20% {
+          opacity: 0;
+        }
+        20.1% {
+          opacity: 1;
+        }
+        20.6% {
+          opacity: 0;
+        }
+        30% {
+          opacity: 0;
+        }
+        30.1% {
+          opacity: 1;
+        }
+        30.5% {
+          opacity: 1;
+        }
+        30.6% {
+          opacity: 0;
+        }
+        45% {
+          opacity: 0;
+        }
+        45.1% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 1;
+        }
+        55% {
+          opacity: 1;
+        }
+        55.1% {
+          opacity: 0;
+        }
+        57% {
+          opacity: 0;
+        }
+        57.1% {
+          opacity: 1;
+        }
+        60% {
+          opacity: 1;
+        }
+        60.1% {
+          opacity: 0;
+        }
+        65% {
+          opacity: 0;
+        }
+        65.1% {
+          opacity: 1;
+        }
+        75% {
+          opacity: 1;
+        }
+        75.1% {
+          opacity: 0;
+        }
+        77% {
+          opacity: 0;
+        }
+        77.1% {
+          opacity: 1;
+        }
+        85% {
+          opacity: 1;
+        }
+        85.1% {
+          opacity: 0;
+        }
+        86% {
+          opacity: 0;
+        }
+        86.1% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      body {
+      background-image: url(https://img.freepik.com/foto-gratis/muro-hormigon-gris_53876-88973.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% 200%;
+      }
+        </style>
+    </head>
+    <body>
+      <h1 class=".morado">Soy un título de nivel uno</h1>
+        <p>
+            Este es un párrafo de texto. En el texto hay un
+            <span>elemento span</span> y también un
+            <a href="http://example.com">enlace</a>.</p>
+        <p>Este es el segundo párrafo. Contiene un elemento <em>destacado</em>.</p>
+          <div class="lista">
+            <ul>
+              <li>Punto uno</li>
+              <li>Punto dos</li>
+              <li>Punto <em>tres</em></li>
+            </ul>
+          </div>
+          <p class="jello-horizontal">
+            <img src="https://2.bp.blogspot.com/-mJtF64UGWmc/WXJ62tqaRNI/AAAAAAAAFi0/Y6TC_cs58eksNpcotmY47SxsoPpDapBnQCLcBGAs/s1600/Hola.png"/>
+          </p>
+          <img src class="kenburns-top"src="https://fondosmil.co/fondo/17010.jpg"/>
+        <p class="flicker-in-1 ">
+            <img src="https://m.media-amazon.com/images/I/6181T9WGatL._AC_UF894,1000_QL80_.jpg"/>
+        </p>
+    </body>
+  </html>
